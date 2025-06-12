@@ -15,20 +15,16 @@
 ## Features
 
 ### 1. General SAPOS Query Generation
-- **Supported Models**: DJI Phantom 4 Multispectral, Phantom 4 RTK, Zenmuse L2, Mavic 3 Enterprise, Wingtra  
-- Generate SAPOS queries for download from [sapos.bayern.de](https://sapos.bayern.de/shop.php)  
-- Rename `.25o` files to `.obs` for compatibility
+- **Supported Models**: DJI Phantom 4 Multispectral, Phantom 4 RTK, Zenmuse L2, Mavic 3 Enterprise, Wingtra
+- Auto-generate SAPOS query files for download from [sapos.bayern.de](https://sapos.bayern.de/shop.php)  
+- Rename `.25o` files to `.obs` for compatibility with DJI Terra processing
 - Notebook: general_SAPOS_query.ipynb
 
-### 2. DJI Zenmuse L2 → DJI Terra Workflow
-- Auto-generate SAPOS query files  
-- Prepare RINEX outputs for DJI Terra processing
-- Notebook: general_SAPOS_query.ipynb
 
-### 3. WZE-UAV (Phantom 4 Multispectral) → Agisoft Metashape Workflow
-- Generate REDToolbox PPK commands  
-- Copy VRS files into `FPLAN` folders by TNR code  
-- Produce Windows batch script for REDToolbox CLI  
+### 2. WZE-UAV (Phantom 4 Multispectral) → Agisoft Metashape Workflow
+- Auto-generate SAPOS query files for download from [sapos.bayern.de](https://sapos.bayern.de/shop.php)
+- Copy VRS files into `FPLAN` folders by TNR (plot ID code)
+- Generate Windows batch script for REDToolbox CLI commands (for geotagging) for Post-Processed Kinematic (PPK)
 - Organize outputs and PPK-ready images
 - Notebook: wze-uav_SAPOS_REDToolBox_pipeline.ipynb
 
