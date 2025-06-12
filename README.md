@@ -1,10 +1,12 @@
 # SAPOS Tagging Toolkit
 
-> **Important third-party software**  
-> - **REDtoolbox** (proprietary): used as an intermediary for geotagging DJI Phantom 4 RTK & DJI Phantom 4 Multispectral data.  
+> **Important third-party software & services**  
+> - **REDtoolbox** (proprietary): used as an intermediary for geotagging.  
 >   [Purchase/licensing information →](https://www.redcatch.at/redtoolbox/#buy)  
 > - **DJI Terra** (proprietary but **free** for geotagging & Zenmuse L2 processing):  
->   [Download DJI Terra →](https://www.dji.com/de/downloads/products/dji-terra#other_software)
+>   [Download DJI Terra →](https://www.dji.com/de/downloads/products/dji-terra#other_software)  
+> - **SAPOS® service** (account and data downloads typically fee-based): requires registration and incurs usage fees per data request or via subscriptions; pricing varies by region.  
+>   [Learn more →](https://www.sapos.de/)
 
 **Automate geotagging and PPK preparation for UAV drone imagery using SAPOS and REDToolbox/DJI Terra.**
 
