@@ -1,8 +1,12 @@
 # SAPOS Tagging Toolkit
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)  
+> **Important third-party software**  
+> - **REDtoolbox** (proprietary): used as an intermediary for geotagging DJI Phantom 4 RTK & DJI Phantom 4 Multispectral data.  
+>   [Purchase/licensing information →](https://www.redcatch.at/redtoolbox/#buy)  
+> - **DJI Terra** (proprietary but **free** for geotagging & Zenmuse L2 processing):  
+>   [Download DJI Terra →](https://www.dji.com/de/downloads/products/dji-terra#other_software)
 
-**Automate geotagging and PPK preparation for UAV drone imagery using SAPOS and REDToolbox.**
+**Automate geotagging and PPK preparation for UAV drone imagery using SAPOS and REDToolbox/DJI Terra.**
 
 ---
 
@@ -23,7 +27,8 @@
 - Generate REDToolbox PPK commands  
 - Copy VRS files into `FPLAN` folders by TNR code  
 - Produce Windows batch script for REDToolbox CLI  
-- Organize outputs and PPK-ready images  
+- Organize outputs and PPK-ready images
+- Notebook: wze-uav_SAPOS_REDToolBox_pipeline.ipynb
 
 ---
 
