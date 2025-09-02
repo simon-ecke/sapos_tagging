@@ -21,6 +21,7 @@
 
 
 ### 2. WZE-UAV (Phantom 4 Multispectral) → Agisoft Metashape Workflow
+- **Supported Models**: DJI Phantom 4 Multispectral
 - Auto-generate SAPOS query files for download from [sapos.bayern.de](https://sapos.bayern.de/shop.php)
 - Copy VRS files into `FPLAN` folders by TNR (plot ID code)
 - Generate Windows batch script for REDToolbox CLI commands (for geotagging) for Post-Processed Kinematic (PPK)
@@ -29,7 +30,7 @@
 
 
 ### 3. DJI Mavic 3 Enterprise (M3E) SAPOS Query Generation
-- **Supported Models**: DJI Phantom 4 Multispectral, Phantom 4 RTK, Zenmuse L2, Mavic 3 Enterprise, Wingtra
+- **Supported Models**: DJI Mavic 3 Enterprise
 - Auto-generate SAPOS query files for download from [sapos.bayern.de](https://sapos.bayern.de/shop.php)
 - Generate Windows batch script for REDToolbox CLI commands (for geotagging) for Post-Processed Kinematic (PPK)
 - Notebook: M3E_SAPOS_and_REDToolbox_query.ipynb
